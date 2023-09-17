@@ -9,19 +9,14 @@ const TopDetails = ({ color,AvailableQuantity,shipTime }) => {
             <Box sx={{ py: 2 }}>
                 <Typography variant="body1" color="initial">color: {color}</Typography>
             </Box>
-            <Grid container spacing={4}>
-                <Grid item xs={8}>
                     <Typography variant="h4" sx={{ fontWeight: 900 }}>
-                        Produnct detail will come here this will looks Good
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis eius, 
+                        magnam similique eaque itaque architecto nisi aliquid mollitia 
+                        
                     </Typography>
-                </Grid>
-                <Grid item xs={4}>
-                    {/* <img src={Product} alt="" /> */}
-                    Image will come here
-                </Grid>
-            </Grid>
+              
 
-            <Box sx={{ boxShadow: "0px 3px 18px #EDEDED", mt:2,px:1, borderRadius:'8px' }}>
+            <Box sx={{ boxShadow: "0px 3px 4px #EDEDED", mt:2,px:3 }}>
                 <Box sx={{ width: '100%', display: 'flex', justifyContent: "space-between", py: 2 }}>
                     <Typography variant="body1" color="initial" sx={{ fontWeight: 600 }}>Available Quantity</Typography>
                     <Typography variant="body1" color="initial" sx={{ fontWeight: 600 }}>Lead Time to Ship</Typography>
@@ -29,7 +24,7 @@ const TopDetails = ({ color,AvailableQuantity,shipTime }) => {
                 <Divider width="full"></Divider>
                 <Box sx={{ width: '100%', display: 'flex', justifyContent: "space-between", py: 2 }}>
                     <Typography variant="body1" color="initial">{AvailableQuantity}</Typography>
-                    <Typography variant="body1" color="initial">{shipTime}</Typography>
+                    <Typography variant="body1" color="initial">{shipTime} Day</Typography>
                 </Box>
             </Box>
         </section>

@@ -9,7 +9,7 @@ const Description = () => {
 
     return (
         <section>
-            <Box sx={{ width: 1, backgroundColor: theme.palette.secondary.main, borderRadius: '8px', mt: 1 }}>
+            <Box sx={{ width: 1, backgroundColor: theme.palette.secondary.main, mt: 1 }}>
                 <Typography variant="h4" sx={{ color: theme.palette.white[900], display: "flex", justifyContent: 'center', alignItems: "center", height: '50px', fontWeight: 600, letterSpacing: "1px", textTransform: "uppercase" }}>Detailed Description</Typography>
             </Box>
             <Box sx={{ display: 'flex', flexDirection: 'column' }}>
