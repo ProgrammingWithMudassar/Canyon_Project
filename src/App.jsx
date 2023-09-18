@@ -1,4 +1,4 @@
-import { Home, DetailPage } from './Pages/index'
+import { Home, DetailPage,AddToCart } from './Pages/index'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
 
@@ -10,6 +10,7 @@ function App() {
         <Routes>
           <Route path="/"  element={<Home />}/>
           <Route path="/detail/:id" element={<DetailPage />} />
+          <Route path="/addtocart" element={<AddToCart />} />
         </Routes>
       </Router>
     </div>
